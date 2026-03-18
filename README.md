@@ -1,52 +1,106 @@
-# NakirMyWebsite
+# NakirMyWebsite 🌟
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.5.
+Добро пожаловать в мой личный веб-сайт! Это современное одностраничное приложение, созданное с использованием **Angular 21** — мощного фреймворка для разработки динамичных и интерактивных веб-приложений.
 
-## Development server
+## ✨ О проекте
 
-To start a local development server, run:
+**NakirMyWebsite** — это не просто сайт, а цифровое воплощение моей творческой вселенной. Здесь вы найдете:
+
+- 🎨 **Современный дизайн**: Адаптивный интерфейс, который идеально выглядит на любом устройстве — от смартфонов до десктопов
+- ⚡ **Высокая производительность**: Оптимизированный код с использованием последних технологий Angular
+- 🎯 **Чистая архитектура**: Хорошо структурированный код с разделением на компоненты, сервисы и модули
+- 🎪 **Анимации и эффекты**: Плавные переходы и интерактивные элементы для незабываемого пользовательского опыта
+
+Проект демонстрирует лучшие практики современной веб-разработки: компонентный подход, реактивное программирование и модульную архитектуру.
+
+## 🚀 Быстрый старт
+
+### Запуск сервера разработки
+
+Чтобы запустить локальный сервер разработки, выполните:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+После запуска сервера откройте браузер и перейдите по адресу `http://localhost:4200/`. Приложение автоматически перезагрузится при изменении исходных файлов.
 
-## Code scaffolding
+### Генерация компонентов
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Angular CLI предоставляет мощные инструменты для генерации кода. Создайте новый компонент:
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Полный список доступных схем (компоненты, директивы, пайпы и т.д.):
 
 ```bash
 ng generate --help
 ```
 
-## Building
+### Сборка проекта
 
-To build the project run:
+Для сборки проекта в продакшн-версию выполните:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Артефакты сборки будут сохранены в директории `dist/`. Продакшн-сборка оптимизирована для максимальной производительности.
 
-## Running unit tests
+### Запуск тестов
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+#### Модульные тесты
+
+Для запуска модульных тестов с использованием [Vitest](https://vitest.dev/):
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+#### E2E-тесты
 
-For end-to-end (e2e) testing, run:
+Для запуска end-to-end тестов:
+
+```bash
+ng e2e
+```
+
+## 🛠️ Технологии
+
+- **Angular 21** — Основной фреймворк
+- **TypeScript** — Типизированный JavaScript
+- **SCSS** — Продвинутые стили с переменными и миксинами
+- **RxJS** — Реактивное программирование
+- **Vitest** — Быстрое тестирование
+- **Angular CLI** — Инструменты разработки
+
+## 📁 Структура проекта
+
+```
+src/
+├── app/                 # Основное приложение
+│   ├── app.config.ts    # Конфигурация приложения
+│   ├── app.routes.ts    # Маршрутизация
+│   ├── app.component.*  # Корневой компонент
+│   └── ...
+├── assets/              # Статические ресурсы
+│   ├── styles/          # Глобальные стили
+│   └── images/          # Изображения
+└── index.html           # Точка входа
+```
+
+## 🎯 Цели проекта
+
+- Демонстрация навыков современной веб-разработки
+- Создание интуитивно понятного пользовательского интерфейса
+- Оптимизация производительности и SEO
+- Непрерывное улучшение и добавление новых функций
+
+---
+
+*Создано с ❤️ с использованием Angular CLI версии 21.0.5*
 
 ```bash
 ng e2e
